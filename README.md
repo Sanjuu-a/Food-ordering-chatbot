@@ -43,12 +43,15 @@ cloudflared tunnel --url https://localhost:8001 --no-tls-verify
 ### Working Demo 🎬
 Quick walkthrough of how the system works 👇
 ### 🖥️ Website UI
-![ruchi_suchi_website](https://github.com/user-attachments/assets/773077b8-0d27-4bc8-afe7-357f67d50cd3)
+![image](https://github.com/user-attachments/assets/d948560a-a4c2-4021-b27d-e2ce96b54e3c)
+
 
 
 ### 💬 Chatbot Conversation
 ![chatbot_conv](https://github.com/user-attachments/assets/154eba81-d238-4dd5-a36c-142caea4fde1)
 
+
 ### 🗄️ Database Storage
-![chatbot_conv](https://github.com/user-attachments/assets/7797ad77-a12b-42fe-a012-f2509b4401ac)
+![db_integration](https://github.com/user-attachments/assets/3924561e-804a-4135-9ded-800188376cca)
+
 
