@@ -40,11 +40,11 @@ cloudflared tunnel --url https://localhost:8001 --no-tls-verify
 
 
 
-Demo 🎬
+### Working Demo 🎬
 Quick walkthrough of how the system works 👇
 ### 🖥️ Website UI
 ![ruchi_suchi_website](https://github.com/user-attachments/assets/773077b8-0d27-4bc8-afe7-357f67d50cd3)
-![image](https://github.com/user-attachments/assets/3ada32fd-290f-424e-8c54-0b29651d1412)
+
 
 ### 💬 Chatbot Conversation
 ![chatbot_conv](https://github.com/user-attachments/assets/154eba81-d238-4dd5-a36c-142caea4fde1)
