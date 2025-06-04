@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruchi Suchi - Fast Food Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Dialogflow Messenger -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        padding: 10px;
+        text-align: center;
+      }
+
+      .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+      }
+
+      #menu {
+        flex: 2;
+      }
+
+      .menu-item {
+        margin-bottom: 30px;
+      }
+
+      .menu-img img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+      }
+
+      .chatbot-section {
+        flex: 1;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      iframe.chatbot-frame {
+        width: 100%;
+        height: 430px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      @media (max-width: 768px) {
+        .content-wrapper {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .chatbot-section,
+        #menu {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Ruchi Suchi</h1>
+        <p>Serving Happiness on a Plate</p>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content-wrapper">
+      <!-- Menu Section -->
+      <section id="menu">
+        <h2>Our Menu</h2>
+
+        <!-- Group 1 -->
+        <div class="menu-item">
+          <div class="menu-img">
+            <img
+              src="images/samosa_pav_chole.jpg"
+              alt="Samosa, Pav Bhaji, Chole Bhature"
+            />
+          </div>
+          <h4>Samosa, Pav Bhaji, Chole Bhature</h4>
+          <p>
+            Samosa: Golden, crispy samosas filled with spiced potatoes and peas.
+          </p>
+          <p>
+            Pav Bhaji: Delicious street-style pav bhaji served with buttery pav.
+          </p>
+          <p>Chole Bhature: Spicy chickpeas served with fluffy bhature.</p>
+        </div>
+
+        <!-- Group 2 -->
+        <div class="menu-item">
+          <div class="menu-img">
+            <img
+              src="images/lassi_masala_rava_dosa.jpg"
+              alt="Mango Lassi, Masala Dosa, Rava Dosa"
+            />
+          </div>
+          <h4>Mango Lassi, Masala Dosa, Rava Dosa</h4>
+          <p>
+            Mango Lassi: A sweet, refreshing drink made with yogurt and mangoes.
+          </p>
+          <p>Masala Dosa: Crispy dosa stuffed with spiced mashed potatoes.</p>
+          <p>Rava Dosa: Crispy rava dosa served with chutney and sambar.</p>
+        </div>
+
+        <!-- Group 3 -->
+        <div class="menu-item">
+          <div class="menu-img">
+            <img
+              src="images/biryani_pizza_vadapav.jpg"
+              alt="Biryani, Pizza, Vada Pav"
+            />
+          </div>
+          <h4>Biryani, Pizza, Vada Pav</h4>
+          <p>
+            Biryani: Fragrant basmati rice cooked with flavorful spices and
+            meat.
+          </p>
+          <p>Pizza: Cheesy pizza with your favorite toppings.</p>
+          <p>Vada Pav: Mumbai's spicy potato vada in a soft pav.</p>
+        </div>
+      </section>
+
+      <!-- Chatbot Section -->
+      <aside class="chatbot-section">
+        <h3>Place your order here 🙂</h3>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+         <df-messenger
+          intent="WELCOME"
+          chat-title="Ruby-Chatbot"
+          agent-id="ef4c2424-22c2-422d-bd65-7349987ae98d"
+          language-code="en">
+        </df-messenger>
+      </div>
+    </div>
+
+
+
+    <!-- Location -->
+    <section class="location" id="location">
+      <div class="container">
+        <h2>Visit Us</h2>
+        <p>VV Puram Food Street, Bengaluru</p>
+        <p>Opening Hours: 12 PM - 11 PM</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Ruchi Suchi. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    
+
+  </body>
+</html>

@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #ff7043;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    width: 95%;
+}
+
+/* Menu Section */
+#menu {
+    flex: 1;
+}
+
+#menu h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-img {
+    position: relative;
+    text-align: center;
+}
+
+.menu-img img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-img:hover img {
+    transform: scale(1.05);
+}
+
+.menu-item h4 {
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: #ff7043;
+}
+
+.menu-details {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Chatbot Section (on the right) */
+.chatbot-section {
+    flex-basis: 350px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.chatbot-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chatbot-section iframe {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
